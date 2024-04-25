@@ -1,0 +1,349 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+/*********************** - RELEASED - ********************************************************************************************************/
+
+## [1.0.1] - 2019-23-06
+### Added
+- Add rudy ddos web attack.
+- Updated the proxy_list.txt file
+
+## [1.0.2] - 2019-24-06
+### Added
+- Add UDP spoofed ddos attack.
+- Add list of fake ip in the file called ip_list.txt
+
+## [1.0.3] - 2019-25-06
+### Added
+- Add Arme ddos web attack.
+
+## [1.0.3.2] - 2019-27-06
+### Added
+- Add Valve source engine ddos attack.
+
+### Removed
+- Fixing bugs
+
+## [1.1] - 2019-29-06
+### Added
+- Add remote webcam streaming option.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+## [1.1.2] - 2019-30-06
+### Added
+- Add record remote webcam option.
+- Add a bash file for activate the webcam if the stream / record options does not detect it.
+
+## [1.1.3] - 2019-01-07
+### Added
+- Optimize a bit the network code, mean now near all options when finsihed the active connection is closed correctly.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.1.31] - 2019-02-07
+### Added
+- Add a MessageBoxes if the webcam is not activated.
+- Add a bash script for indent correctly the keylogger logs.This script is executed automaticly at the log download.
+- Rewrite a little bit the bash script for silently install ffmpeg and gstreamer.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.1.32] - 2019-02-07
+###Added
+- Complet the design of Hodin.
+- Re-coded the download file option for beeing able to download big file.Causion : .mp4 video file can bug with vlc use another reader like xplayer.
+- Re-coded the upload option for beeing able to upload big file.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+## [1.1.33] - 2019-03-07
+###Added
+- Re-coded the upload option for beeing able to upload big file.
+- Made some optimisation, like on ddos fonctions.
+- Correct the server side compiler warnings.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.1.34] - 2019-04-07
+###Added
+- Optimize the network code and fixing some bugs in it.
+- Add some decoration pictures and changed the design in some tabs.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+- Mint19 keylogger not working properly, Ubuntu one is ok other i dunno actualy.Will investigate.
+
+
+## [1.1.4] - 2019-05-07
+###Added
+- Fixed the webcam options.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.1.41] - 2019-06-07
+###Added
+- Re-coded all the download options, they have kind of bugs.Now you can download file or binaries with the appropriate option.
+  No matter the size of the file, even big file like some Giga Octets file can be downloaded.
+- Add new download option for download binaries files even big file. The code for downloading file or bianries isn't totaly the same so i added this new option.
+- For the record webcam option, the webcam at the end of record shutdown correctly, but not in the stream option for now you still need to close the server wish is annoying.
+- Fixed a bug on the remote shell, if you run it then close it then use another option and go back to run remote shell he crash, 
+  now he run well.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.1.5] - 2019-08-07
+###Added
+- Add record the remote microphone option.And download the file then destroy it (server side).
+- Add code for download video file from the record of webcam.And then destroy it on server side.
+- Re write the bash files from "gstreamer_ffmpeg_installers" folder.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.1.51] - 2019-011-07
+###Added
+- Correct near all transimitions options, they have some bugs.
+- Re coded the logging part of the keyloger
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio fromù webcam
+
+### To Fix
+
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.1.52] - 2019-13-07
+###Added
+- Re Coded the remote shell tab, and adding a new textview window.This text view keep the historic of command and command's result.The implementation is at 80%,
+i steel need to save the historic in some way for the whole historic stay on the screen, not only the last command.
+- Fixing a bug on the "download file" option, and added a messagebox window for explain wish kind of file this options can download.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio fromù webcam
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.1.53] - 2019-15-07
+###Added
+- Fixing some bugs in transmition of files.
+- Add progress bar in download binary , download file , record webcam options
+- Add messagebox text in same options.
+- Add condition code for prevent buffer overflow.
+- Securize the code like use strncat not only strcat , same for strcpy using strncpy.
+- Checking deeeply the programm, searching bugs, i guesss actualy it works pretty well, i guess.....
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio fromù webcam
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.21] - 2019-17-07
+###Added
+- Add percents on progress bars
+- Fix a bug in record microphones options
+- Fix some bugs in keyloggers
+
+- Checked all options and seem to work correctly, take a break from the dev of this tool, will continue and
+improve it a bit later.
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio fromù webcam
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [1.22] - 2019-23-07
+###Added
+- Fixing bugs on keyloggers servers.
+- Add a folder called target with server build depending of the target.
+
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio fromù webcam
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+## [2.3] - 2019-24-07
+###Added
+- Fixing minor bugs.
+-Add Ip Finder tool for find real ip in order to feed the ip_list.txt file, be award ips must be in 
+croissant order on this file for attack work.
+
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio fromù webcam
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+## [2.31] - 2019-25-07
+###Added
+- Correct a minor bug in the keylogger log download fonction.
+
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio from webcam
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+## [2.4] - 2019-26-07
+###Added
+- Correct some bugs in the keyloggers, now the choosen keylogger didn't start at boot, unfortunatly this option is not possible actualy (will try but ...).
+  So you have when you want to to launch the keylogger you want, and then it will run until the next boot and will log all keys normaly.
+
+- Deleted the target folder it was a bad idea ..... Now come back to a single server file for all targets.
+
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio from webcam
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+## [2.41] - 2019-27-07
+###Added
+- Change a minor bug in keylogger that make you must enter a upper key for the logger start otherwise he don't now it's fixed.
+
+
+### Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio from webcam
+
+### To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+## [2.5] - 2019-28-07
+###Added
+- Fixing as much bugs as possible, the program seem to work correctly now. They have some minor things to correct like in remote shell some print mistac but nothing very weird.
+- Recoding the output of the keylogger trying to made something clear will increase this in the same way , and add in logs the date of event keystroke.
+
+### Still Trying
+- Add remote desktop streaming, but encouter an X11 server error that i dunno how to fix.
+- Stream video and audio from webcam.
+- Record video and Audio from webcam
+
+### Still need To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+# [2.6] - 2019-15-08
+###Added
+- Mostly worked on Keyloggers, some like the one for debian wasn't effective now it work well like all others.
+- The first letter when you started to type wasn't logged, i fixed this issue.Now the letter is logged like others.
+- Deleted tchat with the victime mode only cause i encounter some problems for daemonise the server and using GTK.I make the choice of deleteing this option and keep the server daemonised.
+- Updated the outdated ffmpeg and gstreamer installer bash file.
+- Fixed a downloading file issue when the target is kali linux.
+
+### Still Trying
+- Add remote desktop streaming, but encouter an X11 server error and i dunno how to fix it.
+- Stream video and audio from webcam.
+- Record video and Audio from webcam
+
+### Still need To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+
+# [2.7] - 2019-24-08
+###Added
+- Fixed minor bugs in keyloggers and record micro option, still encouter an error with fedora for this last option but i guess i can fix it.
+- Except fedora record micro option wish send me error ALL others options are OK, Hodin v2 is born.
+
+### Still Trying
+- Add remote desktop streaming, but encouter an X11 server error and i dunno how to fix it.
+- Stream video and audio from webcam.
+- Record video and Audio from webcam
+
+### Still need To Fix
+- When stream the webcam and close the stream window, the webcam stay activated, need to be fixed.
+
+# [2.8] - 2019-10-09
+###Added
+- Fixed a buffer overflow crash in remote shell while entering ps -aux | less command, now all commands even the ones with long output should works.
+
+### Still Trying
+- Add remote desktop streaming, but encouter an X11 server error and i dunno how to fix it.
+- Stream video and audio from webcam.
+- Record video and Audio from webcam
+
+### Still need To Fix
+- When stream the webcam and close the stream window, the webcam stay activated.
+
+# [2.9] - 2019-25-09
+###Added
+- New skin !
+
+### Still Trying
+- Add remote desktop streaming, but encouter an X11 server error and i dunno how to fix it.
+- Stream video and audio from webcam.
+- Record video and Audio from webcam
+
+### Still need To Fix
+- When stream the webcam and close the stream window, the webcam stay activated.
+
+
